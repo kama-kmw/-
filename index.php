@@ -2,7 +2,7 @@
 <html class="no-js" lang="ru">
 
 <?php 
-
+$title_page = 'Форум Кавказ';
 include 'includes/head.php'; 
 ?>
 

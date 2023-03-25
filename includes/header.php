@@ -7,8 +7,7 @@
                   <div class="col-xl-3 col-lg-2">
                      <div class="logo">
                         <a href="/">
-                           <!-- <img src="img/logo.png" alt=""> -->
-                           Кавказ-Форум
+                           <img src="img/logo.png" alt="">
                         </a>
                      </div>
                   </div>

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html class="no-js" lang="ru">
 
-<?php include 'includes/head.php' ?>
+<?php
+$title_page = 'Регистрация Форум Кавказ';
+include 'includes/head.php';
+?>
 
 <body>
   <!-- HEADER -->
@@ -77,6 +80,56 @@
                 <div class="mt-10 form-item-wrap">
                   <p class="form__subtitle">План мероприятий</p>
                   <div class="switch-wrap d-flex align-items-center">
+                    <div class="form-block__radio">
+                      <label class="form-control__label">
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="05.06 - Дербент (Секция «Межконфессиональный диалог»)" />
+                        05.06 - Дербент (Секция «Межконфессиональный диалог»)
+
+                        <span class="form__gustom-radio"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="switch-wrap d-flex align-items-center">
+                    <div class="form-block__radio">
+                      <label class="form-control__label">
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="06.06 - Махачкала («Россия - моя история»)" />
+                        06.06 - Махачкала («Россия - моя история»)
+
+                        <span class="form__gustom-radio"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="switch-wrap d-flex align-items-center">
+                    <div class="form-block__radio">
+                      <label class="form-control__label">
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="07.06 - Официальная день (25 лет Президентской программе)" />
+                        07.06 - Официальная день (25 лет Президентской программе)
+
+                        <span class="form__gustom-radio"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="switch-wrap d-flex align-items-center">
+                    <div class="form-block__radio">
+                      <label class="form-control__label">
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="08.06 - Спорт (Спорт- в принятие управленческих решений)" />
+                        08.06 - Спорт (Спорт- в принятие управленческих решений)
+
+                        <span class="form__gustom-radio"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="switch-wrap d-flex align-items-center">
+                    <div class="form-block__radio">
+                      <label class="form-control__label">
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="09.06 – Хунзах (знакомство с Расулом Гамзатовым)" />
+                        09.06 – Хунзах (знакомство с Расулом Гамзатовым)
+
+                        <span class="form__gustom-radio"></span>
+                      </label>
+                    </div>
+                  </div>
+                  <!-- <div class="switch-wrap d-flex align-items-center">
                     <div class="primary-checkbox mr-1">
                       <input type="checkbox" id="default-checkbox" name="plan" value="05.06 - Дербент (Секция «Межконфессиональный диалог»)" />
                       <label for="default-checkbox"></label>
@@ -84,52 +137,20 @@
                     <p>
                       05.06 - Дербент (Секция «Межконфессиональный диалог»)
                     </p>
-                  </div>
+                  </div> -->
+                  
                   <div class="switch-wrap d-flex align-items-center">
-                    <div class="primary-checkbox mr-1">
-                      <input type="checkbox" id="default-checkbox1" name="plan" value="06.06 - Махачкала («Моя история – Россия»)" />
-                      <label for="default-checkbox1"></label>
+                    <div class="form-block__radio">
+                      <label class="form-control__label">
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="10.06 - Гуниб ( знакомство с Имамом Шамилем)" />
+                        10.06 - Гуниб ( знакомство с Имамом Шамилем)
+
+                        <span class="form__gustom-radio"></span>
+                      </label>
                     </div>
-                    <p>
-                      06.06 - Махачкала («Россия - моя история»)
-                    </p>
                   </div>
-                  <div class="switch-wrap d-flex align-items-center">
-                    <div class="primary-checkbox mr-1">
-                      <input type="checkbox" id="default-checkbox2" name="plan" value="07.06 - Официальная день («25 лет Президентской программе)" />
-                      <label for="default-checkbox2"></label>
-                    </div>
-                    <p>
-                      07.06 - Официальная день («25 лет Президентской программе)
-                    </p>
-                  </div>
-                  <div class="switch-wrap d-flex align-items-center">
-                    <div class="primary-checkbox mr-1">
-                      <input type="checkbox" id="default-checkbox3" name="plan" value="08.06 - Спорт (Спорт- в принятие управленческих решений)" />
-                      <label for="default-checkbox3"></label>
-                    </div>
-                    <p>
-                      08.06 - Спорт (Спорт- в принятие управленческих решений)
-                    </p>
-                  </div>
-                  <div class="switch-wrap d-flex align-items-center">
-                    <div class="primary-checkbox mr-1">
-                      <input type="checkbox" id="default-checkbox4" name="plan" value="09.06 – Хунзах (знакомство с Расулом Гамзатовым)" />
-                      <label for="default-checkbox4"></label>
-                    </div>
-                    <p>
-                      09.06 – Хунзах (знакомство с Расулом Гамзатовым)
-                    </p>
-                  </div>
-                  <div class="switch-wrap d-flex align-items-center">
-                    <div class="primary-checkbox mr-1">
-                      <input type="checkbox" id="default-checkbox5" name="plan" value="10.06 - Гуниб ( знакомство с Имамом Шамилем)" />
-                      <label for="default-checkbox5"></label>
-                    </div>
-                    <p>
-                      10.06 - Гуниб ( знакомство с Имамом Шамилем)
-                    </p>
-                  </div>
+
+                  
                 </div>
 
                 <div class="mt=10 form-item-wrap">
