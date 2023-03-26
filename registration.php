@@ -10,7 +10,7 @@ include 'includes/head.php';
   <!-- HEADER -->
   <?php include 'includes/header.php' ?>
   <div class="bradcam_area bradcam_bg_1">
-    <div class="container">
+    <!-- <div class="container">
       <div class="row">
         <div class="col-xl-12">
           <div class="bradcam_text">
@@ -18,7 +18,7 @@ include 'includes/head.php';
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 
   <section class="contact-section section_padding">
