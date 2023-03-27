@@ -7642,7 +7642,7 @@ h6 {
   font-size: 12px;
 }
 
-.popular_search__list {
+/* .popular_search__list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -7695,5 +7695,5 @@ h6 {
     grid-template-columns: 1fr;
   }
 
-}
+} */
 /*# sourceMappingURL=style.css.map */
