@@ -18,11 +18,11 @@ include 'includes/head.php';
                 <div class="row align-items-center">
                     <div class="col-lg-7 col-md-6">
                         <div class="slider_text">
-                            <h5 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">4536+ Jobs listed</h5>
-                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Find your Dream Job</h3>
-                            <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">We provide online instant cash loans with quick approval that suit your term length</p>
+                            <!-- <h5 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".2s">4536+ Jobs listed</h5> -->
+                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">Кавказский форум выпускников Президентской программы</h3>
+                            <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">с 5.06 по 10.06</p>
                             <div class="sldier_btn wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
-                                <a href="#" class="boxed-btn3">Upload your Resume</a>
+                                <a href="registration.php" class="boxed-btn3">Зарегистрироваться</a>
                             </div>
                         </div>
                     </div>
@@ -36,7 +36,7 @@ include 'includes/head.php';
     <!-- slider_area_end -->
 
     <!-- catagory_area -->
-    <div class="catagory_area">
+    <!-- <div class="catagory_area">
         <div class="container">
             <div class="row cat_search">
                 <div class="col-lg-3 col-md-4">
@@ -87,260 +87,279 @@ include 'includes/head.php';
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--/ catagory_area -->
 
     <!-- popular_catagory_area_start  -->
-    <div class="popular_catagory_area">
+    <div class="popular_catagory_area" id='popular_catagory_area'>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section_title mb-40">
-                        <h3>Popolar Categories</h3>
+                        <h3>Для кого этот форум</h3>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-xl-3 col-md-6">
+                <div class="col-lg-4 col-xl-4 col-md-6 popular_catagory-container">
                     <div class="single_catagory">
-                        <a href="jobs.html"><h4>Design & Creative</h4></a>
-                        <p> <span>50</span> Available position</p>
+                        <a href="jobs.html"><h4>Для руководителей</h4></a>
+                        <p>
+                             <!-- <span>50</span> -->
+                             Которые хотят обменяться опытом, познакомиться с успешными кейсами отраслевого
+                             и регионального развития
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6">
+                <div class="col-lg-4 col-xl-4 col-md-6">
                     <div class="single_catagory">
-                        <a href="jobs.html"><h4>Marketing</h4></a>
-                        <p> <span>50</span> Available position</p>
+                        <a href="jobs.html"><h4>Для инвесторов
+                            предпринимателей</h4></a>
+                        <p>
+                             <!-- <span>50</span>  -->
+                             Которым важен прямой диалог
+                            с органами власти Ленинградской области, тем, кто заинтересован
+                            в создании в регионе своих предприятий
+                        </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6">
+                <div class="col-lg-4 col-xl-4 col-md-6">
                     <div class="single_catagory">
-                        <a href="jobs.html"><h4>Telemarketing</h4></a>
-                        <p> <span>50</span> Available position</p>
+                        <a href="jobs.html"><h4>Для экспертов
+                            и специалистов</h4></a>
+                            <p>
+                             <!-- <span>50</span> -->
+                             Которым важны новые деловые контакты межрегионального и регионального уровня
+                            </p>
                     </div>
                 </div>
-                <div class="col-lg-4 col-xl-3 col-md-6">
+                <!-- <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
                         <a href="jobs.html"><h4>Software & Web</h4></a>
                         <p> <span>50</span> Available position</p>
                     </div>
-                </div>
-                <div class="col-lg-4 col-xl-3 col-md-6">
+                </div> -->
+                <!-- <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
                         <a href="jobs.html"><h4>Administration</h4></a>
                         <p> <span>50</span> Available position</p>
                     </div>
-                </div>
-                <div class="col-lg-4 col-xl-3 col-md-6">
+                </div> -->
+                <!-- <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
                         <a href="jobs.html"><h4>Teaching & Education</h4></a>
                         <p> <span>50</span> Available position</p>
                     </div>
-                </div>
-                <div class="col-lg-4 col-xl-3 col-md-6">
+                </div> -->
+                <!-- <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
                         <a href="jobs.html"><h4>Engineering</h4></a>
                         <p> <span>50</span> Available position</p>
                     </div>
-                </div>
-                <div class="col-lg-4 col-xl-3 col-md-6">
+                </div> -->
+                <!-- <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_catagory">
                         <a href="jobs.html"><h4>Garments / Textile</h4></a>
                         <p> <span>50</span> Available position</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
     <!-- popular_catagory_area_end  -->
 
     <!-- job_listing_area_start  -->
-    <div class="job_listing_area">
+    <div class="job_listing_area" id="job_listing_area">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="section_title">
-                        <h3>Job Listing</h3>
+                        <h3>Мероприятия</h3>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <!-- <div class="col-lg-6">
                     <div class="brouse_job text-right">
                         <a href="jobs.html" class="boxed-btn4">Browse More Job</a>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="job_lists">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
                         <div class="single_jobs white-bg d-flex justify-content-between">
                             <div class="jobs_left d-flex align-items-center">
-                                <div class="thumb">
+                                <!-- <div class="thumb">
                                     <img src="img/svg_icon/1.svg" alt="">
-                                </div>
+                                </div> -->
                                 <div class="jobs_conetent">
-                                    <a href="job_details.html"><h4>Software Engineer</h4></a>
+                                    <a href="job_details.html"><h4>Секция «Межконфессиональный диалог»</h4></a>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
-                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
+                                            <p> <i class="fa fa-map-marker"></i> Дербент, Дагестан</p>
                                         </div>
-                                        <div class="location">
+                                        <!-- <div class="location">
                                             <p> <i class="fa fa-clock-o"></i> Part-time</p>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
                             <div class="jobs_right">
                                 <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
-                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
+                                    <!-- <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a> -->
+                                    <a href="registration.php" class="boxed-btn3">Зарегистрироваться</a>
                                 </div>
                                 <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
+                                    <p>Дата: 05 Июня 2023</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-12 col-md-12">
                         <div class="single_jobs white-bg d-flex justify-content-between">
                             <div class="jobs_left d-flex align-items-center">
-                                <div class="thumb">
-                                    <img src="img/svg_icon/2.svg" alt="">
-                                </div>
-                                <div class="jobs_conetent">
-                                    <a href="job_details.html"><h4>Digital Marketer</h4></a>
-                                    <div class="links_locat d-flex align-items-center">
-                                        <div class="location">
-                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
-                                        </div>
-                                        <div class="location">
-                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="jobs_right">
-                                <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
-                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
-                                </div>
-                                <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12">
-                        <div class="single_jobs white-bg d-flex justify-content-between">
-                            <div class="jobs_left d-flex align-items-center">
-                                <div class="thumb">
-                                    <img src="img/svg_icon/3.svg" alt="">
-                                </div>
-                                <div class="jobs_conetent">
-                                    <a href="job_details.html"><h4>Wordpress Developer</h4></a>
-                                    <div class="links_locat d-flex align-items-center">
-                                        <div class="location">
-                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
-                                        </div>
-                                        <div class="location">
-                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="jobs_right">
-                                <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
-                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
-                                </div>
-                                <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12">
-                        <div class="single_jobs white-bg d-flex justify-content-between">
-                            <div class="jobs_left d-flex align-items-center">
-                                <div class="thumb">
-                                    <img src="img/svg_icon/4.svg" alt="">
-                                </div>
-                                <div class="jobs_conetent">
-                                    <a href="job_details.html"><h4>Visual Designer</h4></a>
-                                    <div class="links_locat d-flex align-items-center">
-                                        <div class="location">
-                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
-                                        </div>
-                                        <div class="location">
-                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="jobs_right">
-                                <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
-                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
-                                </div>
-                                <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12">
-                        <div class="single_jobs white-bg d-flex justify-content-between">
-                            <div class="jobs_left d-flex align-items-center">
-                                <div class="thumb">
-                                    <img src="img/svg_icon/5.svg" alt="">
-                                </div>
-                                <div class="jobs_conetent">
-                                    <a href="job_details.html"><h4>Software Engineer</h4></a>
-                                    <div class="links_locat d-flex align-items-center">
-                                        <div class="location">
-                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
-                                        </div>
-                                        <div class="location">
-                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="jobs_right">
-                                <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
-                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
-                                </div>
-                                <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-md-12">
-                        <div class="single_jobs white-bg d-flex justify-content-between">
-                            <div class="jobs_left d-flex align-items-center">
-                                <div class="thumb">
+                                <!-- <div class="thumb">
                                     <img src="img/svg_icon/1.svg" alt="">
-                                </div>
+                                </div> -->
                                 <div class="jobs_conetent">
-                                    <a href="job_details.html"><h4>Creative Designer</h4></a>
+                                    <a href="job_details.html"><h4>«Россия - моя история»</h4></a>
                                     <div class="links_locat d-flex align-items-center">
                                         <div class="location">
-                                            <p> <i class="fa fa-map-marker"></i> California, USA</p>
+                                            <p> <i class="fa fa-map-marker"></i> Махачкала, Дагестан</p>
                                         </div>
-                                        <div class="location">
+                                        <!-- <div class="location">
                                             <p> <i class="fa fa-clock-o"></i> Part-time</p>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
                             <div class="jobs_right">
                                 <div class="apply_now">
-                                    <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a>
-                                    <a href="job_details.html" class="boxed-btn3">Apply Now</a>
+                                    <!-- <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a> -->
+                                    <a href="registration.php" class="boxed-btn3">Зарегистрироваться</a>
                                 </div>
                                 <div class="date">
-                                    <p>Date line: 31 Jan 2020</p>
+                                    <p>Дата: 06 Июня 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+                                <!-- <div class="thumb">
+                                    <img src="img/svg_icon/1.svg" alt="">
+                                </div> -->
+                                <div class="jobs_conetent">
+                                    <a href="job_details.html"><h4>Официальная день (25 лет Президентской программе)</h4></a>
+                                    <div class="links_locat d-flex align-items-center">
+                                        <div class="location">
+                                            <p> <i class="fa fa-map-marker"></i> Махачкала, Дагестан</p>
+                                        </div>
+                                        <!-- <div class="location">
+                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs_right">
+                                <div class="apply_now">
+                                    <!-- <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a> -->
+                                    <a href="registration.php" class="boxed-btn3">Зарегистрироваться</a>
+                                </div>
+                                <div class="date">
+                                    <p>Дата: 07 Июня 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+                                <!-- <div class="thumb">
+                                    <img src="img/svg_icon/1.svg" alt="">
+                                </div> -->
+                                <div class="jobs_conetent">
+                                    <a href="job_details.html"><h4> Спорт (Спорт- в принятие управленческих решений)</h4></a>
+                                    <div class="links_locat d-flex align-items-center">
+                                        <div class="location">
+                                            <p> <i class="fa fa-map-marker"></i> Махачкала, Дагестан</p>
+                                        </div>
+                                        <!-- <div class="location">
+                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs_right">
+                                <div class="apply_now">
+                                    <!-- <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a> -->
+                                    <a href="registration.php" class="boxed-btn3">Зарегистрироваться</a>
+                                </div>
+                                <div class="date">
+                                    <p>Дата: 08 Июня 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+                                <!-- <div class="thumb">
+                                    <img src="img/svg_icon/1.svg" alt="">
+                                </div> -->
+                                <div class="jobs_conetent">
+                                    <a href="job_details.html"><h4>Знакомство с Расулом Гамзатовым</h4></a>
+                                    <div class="links_locat d-flex align-items-center">
+                                        <div class="location">
+                                            <p> <i class="fa fa-map-marker"></i> Хунзах, Дагестан</p>
+                                        </div>
+                                        <!-- <div class="location">
+                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs_right">
+                                <div class="apply_now">
+                                    <!-- <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a> -->
+                                    <a href="registration.php" class="boxed-btn3">Зарегистрироваться</a>
+                                </div>
+                                <div class="date">
+                                    <p>Дата: 09 Июня 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12">
+                        <div class="single_jobs white-bg d-flex justify-content-between">
+                            <div class="jobs_left d-flex align-items-center">
+                                <!-- <div class="thumb">
+                                    <img src="img/svg_icon/1.svg" alt="">
+                                </div> -->
+                                <div class="jobs_conetent">
+                                    <a href="job_details.html"><h4>Знакомство с Имамом Шамилем</h4></a>
+                                    <div class="links_locat d-flex align-items-center">
+                                        <div class="location">
+                                            <p> <i class="fa fa-map-marker"></i> Гуниб, Дагестан</p>
+                                        </div>
+                                        <!-- <div class="location">
+                                            <p> <i class="fa fa-clock-o"></i> Part-time</p>
+                                        </div> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="jobs_right">
+                                <div class="apply_now">
+                                    <!-- <a class="heart_mark" href="#"> <i class="ti-heart"></i> </a> -->
+                                    <a href="registration.php" class="boxed-btn3">Зарегистрироваться</a>
+                                </div>
+                                <div class="date">
+                                    <p>Дата: 10 Июня 2023</p>
                                 </div>
                             </div>
                         </div>
@@ -352,12 +371,12 @@ include 'includes/head.php';
     <!-- job_listing_area_end  -->
 
     <!-- featured_candidates_area_start  -->
-    <div class="featured_candidates_area">
+    <div class="featured_candidates_area" id='featured_candidates_area'>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section_title text-center mb-40">
-                        <h3>Featured Candidates</h3>
+                        <h3>Наши Спикеры</h3>
                     </div>
                 </div>
             </div>
@@ -462,19 +481,19 @@ include 'includes/head.php';
     </div>
     <!-- featured_candidates_area_end  -->
 
-    <div class="top_companies_area">
+    <div class="top_companies_area" id="top_companies_area">
         <div class="container">
             <div class="row align-items-center mb-40">
                 <div class="col-lg-6 col-md-6">
                     <div class="section_title">
-                        <h3>Top Companies</h3>
+                        <h3>С нами сотрудничают</h3>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6">
+                <!-- <div class="col-lg-6 col-md-6">
                     <div class="brouse_job text-right">
                         <a href="jobs.html" class="boxed-btn4">Browse More Job</a>
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="row">
                 <div class="col-lg-4 col-xl-3 col-md-6">
@@ -518,7 +537,7 @@ include 'includes/head.php';
     </div>
 
     <!-- job_searcing_wrap  -->
-    <div class="job_searcing_wrap overlay">
+    <!-- <div class="job_searcing_wrap overlay">
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 offset-lg-1 col-md-6">
@@ -537,11 +556,11 @@ include 'includes/head.php';
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- job_searcing_wrap end  -->
 
     <!-- testimonial_area  -->
-    <div class="testimonial_area  ">
+    <!-- <div class="testimonial_area  ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -609,7 +628,7 @@ include 'includes/head.php';
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- /testimonial_area  -->
 
 
@@ -663,10 +682,10 @@ include 'includes/head.php';
                                 Company
                             </h3>
                             <ul>
-                                <li><a href="#">About </a></li>
-                                <li><a href="#"> Pricing</a></li>
-                                <li><a href="#">Carrier Tips</a></li>
-                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#popular_catagory_area">Для кого этот форум </a></li>
+                                <li><a href="#job_listing_area"> Мероприятия</a></li>
+                                <li><a href="#featured_candidates_area">Наши Спикеры</a></li>
+                                <li><a href="#top_companies_area">С нами сотрудничают</a></li>
                             </ul>
 
                         </div>
@@ -674,17 +693,37 @@ include 'includes/head.php';
                     <div class="col-xl-3 col-md-6 col-lg-3">
                         <div class="footer_widget wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".5s">
                             <h3 class="footer_title">
-                                Category
+                                Мероприятия
                             </h3>
                             <ul>
-                                <li><a href="#">Design & Art</a></li>
-                                <li><a href="#">Engineering</a></li>
-                                <li><a href="#">Sales & Marketing</a></li>
-                                <li><a href="#">Finance</a></li>
+                                <li><a href="#">Межконфессиональный диалог</a></li>
+                                <li><a href="#">Россия - моя история</a></li>
+                                <li><a href="#">25 лет Президентской программе</a></li>
+                                <!-- <li><a href="#">Спорт- в принятие управленческих решений)</a></li>
+                                <li><a href="#">Знакомство с Расулом Гамзатовым</a></li>
+                                <li><a href="#">Знакомство с Имамом Шамилем</a></li> -->
+
                             </ul>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-md-6 col-lg-4">
+
+                    <div class="col-xl-3 col-md-6 col-lg-3">
+                        <div class="footer_widget wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".5s">
+                            <h3 class="footer_title">
+                                Мероприятия
+                            </h3>
+                            <ul>
+                                <!-- <li><a href="#">Межконфессиональный диалог</a></li>
+                                <li><a href="#">Россия - моя история</a></li>
+                                <li><a href="#">25 лет Президентской программе</a></li> -->
+                                <li><a href="#">Спорт- в принятие управленческих решений)</a></li>
+                                <li><a href="#">Знакомство с Расулом Гамзатовым</a></li>
+                                <li><a href="#">Знакомство с Имамом Шамилем</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xl-4 col-md-6 col-lg-4">
                         <div class="footer_widget wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".6s">
                             <h3 class="footer_title">
                                 Subscribe
@@ -696,7 +735,7 @@ include 'includes/head.php';
                             <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems
                                 luckily.</p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
