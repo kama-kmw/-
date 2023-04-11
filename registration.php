@@ -28,7 +28,7 @@ include 'includes/head.php';
           <h2 class="contact-title">Предварительная регистрация</h2>
         </div>
         <div class="col-lg-10">
-          <form class="form-contact contact_form" action="mailing.php" method="post" id="contactForm" novalidate="novalidate">
+          <form class="form-contact contact_form" action="mailing3.php" method="post" id="contactForm" novalidate="novalidate">
             <div class="row">
               <div class="col-lg-12 col-md-8">
 
@@ -82,8 +82,8 @@ include 'includes/head.php';
                   <div class="switch-wrap d-flex align-items-center">
                     <div class="form-block__radio">
                       <label class="form-control__label">
-                        <input class="form__real-radio" type="checkbox" name="plan[]" value="05.06 - Дербент (Секция «Межконфессиональный диалог»)" />
-                        05.06 - Дербент (Секция «Межконфессиональный диалог»)
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="05.06 – Дербент. «Межконфессиональный диалог» с Инной Куниной" />
+                        05.06 – Дербент. «Межконфессиональный диалог» с Инной Куниной
 
                         <span class="form__gustom-radio"></span>
                       </label>
@@ -92,8 +92,8 @@ include 'includes/head.php';
                   <div class="switch-wrap d-flex align-items-center">
                     <div class="form-block__radio">
                       <label class="form-control__label">
-                        <input class="form__real-radio" type="checkbox" name="plan[]" value="06.06 - Махачкала («Россия - моя история»)" />
-                        06.06 - Махачкала («Россия - моя история»)
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="06.06 – Махачкала. «Россия – моя история»" />
+                        06.06 – Махачкала. «Россия – моя история»
 
                         <span class="form__gustom-radio"></span>
                       </label>
@@ -102,8 +102,8 @@ include 'includes/head.php';
                   <div class="switch-wrap d-flex align-items-center">
                     <div class="form-block__radio">
                       <label class="form-control__label">
-                        <input class="form__real-radio" type="checkbox" name="plan[]" value="07.06 - Официальная день (25 лет Президентской программе)" />
-                        07.06 - Официальная день (25 лет Президентской программе)
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="07.06 - Экскурсия по Сулакскому каньону" />
+                        07.06 - Экскурсия по Сулакскому каньону
 
                         <span class="form__gustom-radio"></span>
                       </label>
@@ -112,8 +112,8 @@ include 'includes/head.php';
                   <div class="switch-wrap d-flex align-items-center">
                     <div class="form-block__radio">
                       <label class="form-control__label">
-                        <input class="form__real-radio" type="checkbox" name="plan[]" value="08.06 - Спорт (Спорт- в принятие управленческих решений)" />
-                        08.06 - Спорт (Спорт- в принятие управленческих решений)
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="08.06 - Официальная часть форума. Пленарное заседание" />
+                        08.06 - Официальная часть форума. Пленарное заседание
 
                         <span class="form__gustom-radio"></span>
                       </label>
@@ -122,8 +122,8 @@ include 'includes/head.php';
                   <div class="switch-wrap d-flex align-items-center">
                     <div class="form-block__radio">
                       <label class="form-control__label">
-                        <input class="form__real-radio" type="checkbox" name="plan[]" value="09.06 – Хунзах (знакомство с Расулом Гамзатовым)" />
-                        09.06 – Хунзах (знакомство с Расулом Гамзатовым)
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="09.06 – Посещение высокогорного Хунзаха – Родина великого поэта Расула Гамзатова" />
+                        09.06 – Посещение высокогорного Хунзаха – Родина великого поэта Расула Гамзатова
 
                         <span class="form__gustom-radio"></span>
                       </label>
@@ -142,8 +142,8 @@ include 'includes/head.php';
                   <div class="switch-wrap d-flex align-items-center">
                     <div class="form-block__radio">
                       <label class="form-control__label">
-                        <input class="form__real-radio" type="checkbox" name="plan[]" value="10.06 - Гуниб ( знакомство с Имамом Шамилем)" />
-                        10.06 - Гуниб ( знакомство с Имамом Шамилем)
+                        <input class="form__real-radio" type="checkbox" name="plan[]" value="10.06 – Знакомство с местностью Гуниб – гигантский музей под открытым небом" />
+                        10.06 – Знакомство с местностью Гуниб – гигантский музей под открытым небом
 
                         <span class="form__gustom-radio"></span>
                       </label>
@@ -172,6 +172,22 @@ include 'includes/head.php';
                       из аэропорта в Дербент 04.06 в 14:30
                       <span class="form__gustom-radio"></span>
                     </label>
+                  </div>
+
+                  <div class="switch-wrap d-flex align-items-center">
+                    <label class="form-control__label">
+                      <input class="form__real-radio transfer-other" type="radio" name="transfer" value="другое" id="default-radio" />
+                      другое
+                      <span class="form__gustom-radio"></span>
+                    </label>
+                  </div>
+                  <div class="form-control__pickup-wrapper" id="js-form_transfer_other">
+                    <div class="form-control__pickup form-control__pickup-adress">
+                      <div class="mt-10 form-item-wrap">
+                        <label for="formName" class="form__subtitle">Укажите свой трансфер<span>*</span></label>
+                        <input type="text" name="transfer_other" placeholder="Мой ответ" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Мой ответ'" required class="single-input" id="formName" />
+                      </div>
+                    </div>
                   </div>
                 </div>
 

@@ -12,3 +12,19 @@ addEventListener('click', () => {
     formChildrenContainer.style.display = 'none';
   }
 });
+
+
+const btn_transfer_other = document.querySelector(
+  '.transfer-other'
+);
+const form_transfer_other = document.getElementById(
+  'js-form_transfer_other'
+);
+
+addEventListener('click', () => {
+  if (btn_transfer_other.checked) {
+    form_transfer_other.style.display = 'block';
+  } else {
+    form_transfer_other.style.display = 'none';
+  }
+});
