@@ -2,6 +2,7 @@
 
 $data = $_POST;
 $mail = $data['email'];
+$mail = trim($mail);
 $name = $data['name'];
 $phone = $data['phone'];
 $customer = $data['customer'];
@@ -32,10 +33,13 @@ $message .= '
 Количество детей - '.$children_count.'
 Пожелания - '.$feedback;
 
+$user_message = 'Регистрация прошла успешно';
+
 // Отправляем если кнопка нажата
 if(isset($data['submit'])) {
-  mail('surha_dag@mail.ru', 'Предварительная регистрация с сайта Форум Кавказ.', $message);
-  mail('avpp.rd@gmail.com', 'Предварительная регистрация с сайта Форум Кавказ.', $message);
+  mail('surha_dag@mail.ru', 'Регистрация с сайта Форум Кавказ.', $message);
+  mail('avpp.rd@gmail.com', 'Регистрация с сайта Форум Кавказ.', $message);
+  mail($mail, 'Регистрация на Форум-Кавказ.рф', $user_message);
 }
 header('Location: http://форум-кавказ.рф/registration.php');
 ?>
