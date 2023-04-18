@@ -1771,6 +1771,7 @@ h3 {
 
 /* line 18, ../../Arafath/CL/December/235. Job board/HTML/scss/_testmonial.scss */
 .testimonial_area .single_testmonial .thumb img {
+  max-width: 100%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -3571,11 +3572,19 @@ h3 {
 
 /* line 10, ../../Arafath/CL/December/235. Job board/HTML/scss/_candidates.scss */
 .featured_candidates_area .single_candidates {
+  width: 270px;
+
   background: #fff;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
   padding: 35px 45px;
+}
+
+.featured_candidates_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -3761,6 +3770,10 @@ h3 {
   background: #F5F7FA;
   margin-right: 25px;
   border: 1px solid #F0F0F0;
+}
+
+.top_companies_area .single_company .thumb img {
+  max-width: 100%;
 }
 
 /* line 32, ../../Arafath/CL/December/235. Job board/HTML/scss/_compani.scss */

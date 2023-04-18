@@ -380,7 +380,7 @@ include 'includes/head.php';
                     </div>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col-lg-12">
                     <div class="candidate_active owl-carousel">
                         <div class="single_candidates text-center">
@@ -476,6 +476,134 @@ include 'includes/head.php';
                         </div>
                     </div>
                 </div>
+            </div> -->
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="featured_candidates_container">
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/11.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Идрис Магомедов</h4></a>
+                            <p>Преподаватель исламской онлайн академии «Медина».</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/12.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Кунина Инна Владимировна</h4></a>
+                            <p>Лингвист, общественный деятель</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                                <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Хусяиншин Рафаэль</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Хабибрахимов Альмир</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Резванов Нурали</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Голубинский Игорь</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Подшивалов Евгений</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Жогин Борис Георгиевич</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Фурта Станислав Дмитриевич</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Дохолян Сергей Владимирович</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Бункин Алексей Сергеевич</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Ананич Марина Ивановна</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Исаков Эдуард Владимирович</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Ханхалаев Андрей Александрович</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Альчик Наталья Александровна</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+
+                        <div class="single_candidates text-center">
+                            <div class="thumb">
+                            <img src="img/candiateds/user.jpeg" alt="">
+                            </div>
+                            <a href="#"><h4>Горбулицкая Анастасия Сергеевна</h4></a>
+                            <p>Преподаватель</p>
+                        </div>
+
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -501,26 +629,26 @@ include 'includes/head.php';
                         <div class="thumb">
                             <img src="img/svg_icon/5.svg" alt="">
                         </div>
-                        <a href="jobs.html"><h3>Snack Studio</h3></a>
-                        <p> <span>50</span> Available position</p>
+                        <a href="jobs.html"><h3>ФБУ Федеральный Ресурсный центр (ФРЦ)</h3></a>
+                        <!-- <p> <span>50</span> Available position</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-3 col-md-6">
+                    <div class="single_company">
+                        <div class="thumb ">
+                            <img src="img/mineconom.png" alt="">
+                        </div>
+                        <a href="jobs.html"><h3>Министерство Экономики и территориального развития РД</h3></a>
+                        <!-- <p> <span>50</span> Available position</p> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-3 col-md-6">
                     <div class="single_company">
                         <div class="thumb">
-                            <img src="img/svg_icon/4.svg" alt="">
+                            <img src="img/universitet.jpeg" alt="">
                         </div>
-                        <a href="jobs.html"><h3>Snack Studio</h3></a>
-                        <p> <span>50</span> Available position</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-xl-3 col-md-6">
-                    <div class="single_company">
-                        <div class="thumb">
-                            <img src="img/svg_icon/3.svg" alt="">
-                        </div>
-                        <a href="jobs.html"><h3>Snack Studio</h3></a>
-                        <p> <span>50</span> Available position</p>
+                        <a href="jobs.html"><h3>Дагестанский государственный университет народного хозяйства</h3></a>
+                        <!-- <p> <span>50</span> Available position</p> -->
                     </div>
                 </div>
                 <div class="col-lg-4 col-xl-3 col-md-6">
@@ -528,8 +656,8 @@ include 'includes/head.php';
                         <div class="thumb">
                             <img src="img/svg_icon/1.svg" alt="">
                         </div>
-                        <a href="jobs.html"><h3>Snack Studio</h3></a>
-                        <p> <span>50</span> Available position</p>
+                        <a href="jobs.html"><h3>Региональные Ассоциации РФ</h3></a>
+                        <!-- <p> <span>50</span> Available position</p> -->
                     </div>
                 </div>
             </div>
@@ -743,13 +871,14 @@ include 'includes/head.php';
             <div class="container">
                 <div class="footer_border"></div>
                 <div class="row">
-                    <div class="col-xl-12">
-                        <p class="copy_right text-center">
-                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        </p>
+                <div class="col-lg-12 ">
+                    <div class="small text-white text-center">
+                        Все права защищены &copy;<script>
+                            document.write(new Date().getFullYear());
+                        </script> | Сайт создан на
+                        <a class="artcod-link text-white" href="https://art-cod.ru" target="_blank">Art-Cod.ru </a>
                     </div>
+                </div>
                 </div>
             </div>
         </div>
